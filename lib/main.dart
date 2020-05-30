@@ -7,7 +7,11 @@ import './screens/Register_2.dart';
 import './screens/Register3.dart';
 import './screens/Register_4.dart';
 import './screens/Register_5.dart';
-
+import './screens/scanner.dart';
+import './screens/test-scan.dart';
+import './screens/action.dart';
+import './screens/checkout.dart';
+import './screens/bottom_checkout.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -32,6 +36,6 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     
-    return Registerfive();
+    return Check();
   }
 }
